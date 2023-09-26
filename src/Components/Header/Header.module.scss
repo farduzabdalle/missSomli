@@ -1,0 +1,25 @@
+@use "../../variables.scss" as mixin;
+.Header{
+margin: 1.5rem 0;
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: mixin.$secondColor;
+    font-weight: 700;
+    font-size: 1.55 rem;
+}
+    .logo{
+        color: mixin.$secondColor;
+		font-size: 2.5rem;
+		font-weight: 700;
+    }
+
+}
+
